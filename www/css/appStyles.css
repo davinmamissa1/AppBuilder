@@ -2,7 +2,9 @@
 /* CSS Document */
 html{
 	background-color: rgba(214,255,254,1.00);
-	background-image: url(../image/Background.jpg)
+	background-image: url(../img/Background.jpg);
+	position: absolute;
+	z-index: 1;
 	}
 #indextext{ 
 	margin-left: auto;
@@ -28,6 +30,7 @@ html{
 	position: absolute;
 	width: 100%;
 	margin-top: 100px;
+	z-index: 2;
 	}
 h1{
 	text-align: center;
