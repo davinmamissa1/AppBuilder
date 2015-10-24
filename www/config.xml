@@ -43,10 +43,10 @@
     -->
 
     <!-- Plugins -->
-	<gap:plugin name="org.li8.inappbrowser" version="0.1" source="pgb"/>
+	<gap:plugin name="org.li8.inappbrowser" version="0.1" source="plugins.cordova.io"/>
     <!-- Core plugins -->
     <gap:plugin name="org.apache.cordova.battery-status" source="npm" />
-    <gap:plugin name="org.apache.cordova.camera" source="npm" />
+    <gap:plugin name="org.apache.cordova.camera" source="plugins.cordova.io" />
     <gap:plugin name="org.apache.cordova.media-capture" source="npm" />
     <gap:plugin name="org.apache.cordova.console" source="npm" />
     <gap:plugin name="org.apache.cordova.contacts" source="npm" />
