@@ -2,7 +2,10 @@
 /* CSS Document */
 html{
 	background-color: rgba(214,255,254,1.00);
-	background-image: url(../img/Background.jpg);
+	background-image: url(../img/2x4.jpg);
+	background-repeat: repeat-x 1000;
+	background-repeat: repeat-y 1000;
+	
 	}
 #indextext{ 
 	margin-left: auto;
