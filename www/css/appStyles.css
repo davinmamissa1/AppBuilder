@@ -108,7 +108,7 @@ h1{
 table{
 	margin-left: auto;
 	margin-right: auto;
-	border-left-style:outset;
+	border-left-style: none;
 	border-color: none;
 	}
 table img{

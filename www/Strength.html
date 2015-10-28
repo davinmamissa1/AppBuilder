@@ -20,6 +20,13 @@ function MM_DW_effectSlide(obj,method,effect,direction,distance,speed)
 {
     obj[method](effect, { direction: direction, distance: distance}, speed);
 }
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
 </script>
 </head>
 
@@ -214,7 +221,7 @@ function MM_DW_effectSlide(obj,method,effect,direction,distance,speed)
                     </td>
                 </tr>
                 <tr>
-                	<td><div data-role="collapsible"><h1><img src="img/images/SPECIAL_74.jpg" width="500" height="500" onClick="MM_DW_effectSlide($('#Col9'),'toggle','slide','up',1000,1000)"></h1></div>
+                	<td><div data-role="collapsible"><h1><img src="img/images/SPECIAL_74.jpg" width="500" height="500" onClick="MM_showHideLayers('Col9','','hide')"></h1></div>
                    <div id="Col9">
                       <h3>
                     	<ul>
