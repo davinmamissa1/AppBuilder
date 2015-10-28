@@ -131,8 +131,12 @@ table img{
 ul{
 	list-style-type: none;
 	color: rgba(137,248,48,1.00);
+	
 	}
 
-	
+#col{
+	margin-left: 100%;
+	margin-right: auto;
+	}
 	/* addition */
 	/* source: http://www.ehow.com/how_12214447_make-collapsing-lists-java.html */

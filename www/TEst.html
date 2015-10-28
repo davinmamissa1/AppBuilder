@@ -2,12 +2,25 @@
 <html>
 <head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="../../jQueryAssets/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="../../jQueryAssets/jquery-ui-effects.custom.min.js" type="text/javascript"></script>
 <script>
 $(document).ready(function(){
     $("button").click(function(){
         $("ul").toggle();
     });
 });
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+function MM_DW_effectDrop(obj,method,effect,dir,speed)
+{
+    obj[method](effect, { direction: dir}, speed);
+}
 </script>
 </head>
 <body>
@@ -16,7 +29,7 @@ $(document).ready(function(){
 		list-style: none;
 		}
 </style>
-<button><img src="img/SPECIAL_11.jpg"</button>
+<!---<button><img src="img/SPECIAL_11.jpg"</button>
 
 						<ul>
                         	<li><img src="img/resize/star.png" width="50" height="50" alt="star symbol">20% increase of Unarmed Damage</li>
@@ -42,8 +55,48 @@ $(document).ready(function(){
                             <li><img src="img/resize/star.png" width="50" height="50" alt="star symbol">60% increase of Unarmed Damage</li>
                             <li><img src="img/resize/star.png" width="50" height="50" alt="star symbol">80% increase of Unarmed Damage</li>
                             <li><img src="img/resize/star.png" width="50" height="50" alt="star symbol">100% increase of Unarmed Damage</li>
+                        </ul>--->
+                        <div data-role="collapsible">
+                    <h1><img src="img/images/SPECIAL_11.jpg" width="500" height="500" onClick="MM_showHideLayers('Col','','show','Col1','','hide')"></h1>
+  <div id="Col">
+                      <h3>
+                    	<ul>
+                        	<li><img src="img/resize/star.png" width="50" height="50" alt="star symbol">20% increase of Unarmed Damage</li>
+                            <li><img src="img/resize/star.png" width="50" height="50" alt="star symbol">40% increase of Unarmed Damage</li>
+                            <li><img src="img/resize/star.png" width="50" height="50" alt="star symbol">60% increase of Unarmed Damage</li>
+                            <li><img src="img/resize/star.png" width="50" height="50" alt="star symbol">80% increase of Unarmed Damage</li>
+                            <li><img src="img/resize/star.png" width="50" height="50" alt="star symbol">100% increase of Unarmed Damage</li>
                         </ul>
+                   	 </h3>
+  </div>
                         
-
+<div data-role="collapsible">
+                    <h1><img src="img/images/SPECIAL_11.jpg" width="500" height="500" onClick="MM_showHideLayers('Col','','hide','Col1','','show')"></h1>
+<div id="Col1">
+                      <h3>
+                    	<ul>
+                        	<li><img src="img/resize/star.png" width="50" height="50" alt="star symbol">20% increase of Unarmed Damage</li>
+                            <li><img src="img/resize/star.png" width="50" height="50" alt="star symbol">40% increase of Unarmed Damage</li>
+                            <li><img src="img/resize/star.png" width="50" height="50" alt="star symbol">60% increase of Unarmed Damage</li>
+                            <li><img src="img/resize/star.png" width="50" height="50" alt="star symbol">80% increase of Unarmed Damage</li>
+                            <li><img src="img/resize/star.png" width="50" height="50" alt="star symbol">100% increase of Unarmed Damage</li>
+                        </ul>
+                   	 </h3>
+  </div>
+  
+  
+  <div data-role="collapsible">
+                    <h1><img src="img/images/SPECIAL_11.jpg" width="500" height="500" onClick="MM_DW_effectDrop($('#Col2'),'toggle','drop','up',300)"></h1>
+  <div id="Col2">
+                      <h3>
+                    	<ul>
+                        	<li><img src="img/resize/star.png" width="50" height="50" alt="star symbol">20% increase of Unarmed Damage</li>
+                            <li><img src="img/resize/star.png" width="50" height="50" alt="star symbol">40% increase of Unarmed Damage</li>
+                            <li><img src="img/resize/star.png" width="50" height="50" alt="star symbol">60% increase of Unarmed Damage</li>
+                            <li><img src="img/resize/star.png" width="50" height="50" alt="star symbol">80% increase of Unarmed Damage</li>
+                            <li><img src="img/resize/star.png" width="50" height="50" alt="star symbol">100% increase of Unarmed Damage</li>
+                        </ul>
+                   	 </h3>
+  </div>
 </body>
 </html>
