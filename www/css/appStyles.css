@@ -138,5 +138,12 @@ ul{
 	margin-left: 100%;
 	margin-right: auto;
 	}
+button{
+	background-color: transparent;
+	border: none;
+	background: none;
+	margin-left: auto;
+	margin-right:auto;
+	}
 	/* addition */
 	/* source: http://www.ehow.com/how_12214447_make-collapsing-lists-java.html */
