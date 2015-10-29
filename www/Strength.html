@@ -16,6 +16,7 @@
 <script src="../../jQueryAssets/jquery-ui-effects.custom.min.js" type="text/javascript"></script>
 <title>Hello World</title>
 <script type="text/javascript">
+
 function MM_DW_effectSlide(obj,method,effect,direction,distance,speed)
 {
     obj[method](effect, { direction: direction, distance: distance}, speed);
@@ -31,6 +32,13 @@ function MM_DW_effectDrop(obj,method,effect,dir,speed)
 {
     obj[method](effect, { direction: dir}, speed);
 }
+</script>
+<script>
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
+    });
+});
 </script>
 </head>
 
@@ -82,7 +90,15 @@ function MM_DW_effectDrop(obj,method,effect,dir,speed)
                    	 </h3>
   </div>
 </div>---->
-                   
+                   <div id="flip"><img src="img/SPECIAL_11.jpg"</div>
+<div id="panel"><ul>
+                        	<li><img src="img/resize/star.png" width="50" height="50" alt="star symbol">20% increase of Unarmed Damage</li>
+                            <li><img src="img/resize/star.png" width="50" height="50" alt="star symbol">40% increase of Unarmed Damage</li>
+                            <li><img src="img/resize/star.png" width="50" height="50" alt="star symbol">60% increase of Unarmed Damage</li>
+                            <li><img src="img/resize/star.png" width="50" height="50" alt="star symbol">80% increase of Unarmed Damage</li>
+                            <li><img src="img/resize/star.png" width="50" height="50" alt="star symbol">100% increase of Unarmed Damage</li>
+                        </ul>
+                        </div>
             
                     
                     <div data-role="collapsible">
