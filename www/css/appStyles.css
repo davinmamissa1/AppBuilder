@@ -145,5 +145,18 @@ button{
 	margin-left: auto;
 	margin-right:auto;
 	}
+.collapse{
+	background: none;
+	background-color: none;
+	}
+#well{
+	background-color: none;
+	}
+#middle{
+	width: 500px;
+	height: 5000px;
+	margin-left: auto;
+	margin-right: auto;
+	}
 	/* addition */
 	/* source: http://www.ehow.com/how_12214447_make-collapsing-lists-java.html */
