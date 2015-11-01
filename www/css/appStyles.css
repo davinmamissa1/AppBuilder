@@ -36,6 +36,7 @@ h1{
 	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
 	font-style: bold;
 	font-size: 60px;
+	color: rgba(137,248,48,1.00);
 	
 	}
 #menu{
@@ -133,7 +134,14 @@ ul{
 	color: rgba(137,248,48,1.00);
 	
 	}
-
+li img{
+	padding: 10px;
+	
+	}
+p{
+	color: rgba(137,248,48,1.00);
+	padding-left: 30px;
+	}
 #col{
 	margin-left: 100%;
 	margin-right: auto;
