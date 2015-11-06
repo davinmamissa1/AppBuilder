@@ -134,6 +134,9 @@ ul{
 	color: rgba(137,248,48,1.00);
 	
 	}
+l1{
+	text-align: right;
+	}
 li img{
 	padding: 10px;
 	
@@ -148,7 +151,7 @@ p{
 	}
 button{
 	background-color: transparent;
-	border: none;
+	border: solid rgba(137,248,48,1.00);
 	background: none;
 	margin-left: auto;
 	margin-right:auto;
