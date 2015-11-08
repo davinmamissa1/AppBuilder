@@ -28,8 +28,8 @@ html{
 	}
 #wrapper1{
 	position: absolute;
-	width: 80%;
-	margin-top: 100px;
+	width: 100%;
+	margin-top: 10%;
 	}
 h1{
 	text-align: center;
@@ -51,10 +51,10 @@ h1{
 	width: 200px;
 	}
 #Strength{
-	width: 200px;
+	width: 25%;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 10px;
+	margin-top: 3%;
 	}
 #P{
 	float: left;
@@ -165,8 +165,8 @@ button{
 	background-color: none;
 	}
 #middle{
-	width: 50%;
-	height: 100%;
+	width: 500px;
+	height: 5000px;
 	margin-left: auto;
 	margin-right: auto;
 	}
