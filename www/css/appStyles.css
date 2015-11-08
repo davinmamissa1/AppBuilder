@@ -28,7 +28,7 @@ html{
 	}
 #wrapper1{
 	position: absolute;
-	width: 100%;
+	width: 80%;
 	margin-top: 100px;
 	}
 h1{
@@ -165,8 +165,8 @@ button{
 	background-color: none;
 	}
 #middle{
-	width: 500px;
-	height: 5000px;
+	width: 50%;
+	height: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	}
