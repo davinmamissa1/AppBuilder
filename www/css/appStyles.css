@@ -31,9 +31,8 @@ html{
 #wrapper{
 	position: absolute;
 	max-width: 100%;
+	margin: 0 auto;
 	margin-top: 10%;
-	margin-left: 17%;
-	margin-right: auto;
 	
 	}
 }
