@@ -5672,11 +5672,12 @@ a.list-group-item-danger.active:focus {
   padding-bottom: 75%;
 }
 .well {
-  min-height: 20px;
+  min-height: 20%;
   text-align: left;
-  width: 530px;
+  width: 106%;
   padding: 0px;
   margin-bottom: 20px;
+  margin: auto;
   background-color: none;
   color: rgba(137,248,48,1.00);
   border:  solid rgba(137,248,48,1.00);
