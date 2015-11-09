@@ -31,9 +31,7 @@ html{
 #wrapper{
 	position: absolute;
 	max-width: 100%;
-	margin-top: 10%;
-	margin-left: 19%;
-	margin-right: auto;
+	margin: 0 auto !important;
 	
 	}
 }
@@ -67,6 +65,14 @@ h1{
 	margin-right: auto;
 	margin-top: 5%;
 	}
+	@media screen and (min-width: 768px){
+		#Strength{
+	width: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+	}
+		}
 #P{
 	float: left;
 	width: 100%;
