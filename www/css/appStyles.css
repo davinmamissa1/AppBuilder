@@ -62,12 +62,19 @@ h1{
 	width: 100%;
 	}
 #Strength{
+	width: 25%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+	}
+	@media screen and (min-width: 768px){
+		#Strength{
 	width: 15%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 5%;
 	}
-	
+		}
 #P{
 	float: left;
 	width: 100%;
