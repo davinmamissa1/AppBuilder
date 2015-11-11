@@ -12,6 +12,7 @@ html{
 	float: left;
 	color: rgba(137,248,48,1.00);
 	position: static; 
+	text-align: center;
 	}
 #indextext h1{
 	font-size: 60px;
@@ -25,6 +26,7 @@ html{
 	margin-top: 10%;
 	margin-left: auto;
 	margin-right: auto;
+	padding-left: 5%;
 	
 	}
 @media screen and (min-width: 768px){
@@ -41,7 +43,9 @@ html{
 	position: absolute;
 	width: 100%;
 	margin-top: 10%;
-	padding: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 10%;
 	}
 h1{
 	text-align: center;
@@ -155,6 +159,7 @@ table img{
 	margin-right:auto;
 	margin-left: 20%;
 	position: relative;
+	padding-left: 5%;
 	}
 #footer{
 	color: rgba(137,248,48,1.00);
